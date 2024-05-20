@@ -39,3 +39,8 @@ Creating specific conditions for display
 ```python
 df[(df.Medal =='Gold')&(df.Gender== 'Men')]
 ```
+
+Creating new dataframe with filtered columns
+```python
+df1 = df[['Store_Type','Sales']] 
+```
